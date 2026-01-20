@@ -4,7 +4,9 @@ $(document).ready(function () {
         margin:30,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 3000,
+        smartSpeed: 1000,        // slide transition speed (ms)
+        autoplaySpeed: 1000,     // autoplay transition speed
         nav: false,
         dots: false,
         responsive: {
@@ -16,12 +18,9 @@ $(document).ready(function () {
             768: {
                 items: 2.2, 
             },
-            480: {
-                items: 1.2, 
-            },
             // For small screens (mobile)
             0: {
-                items: 1,
+                items: 1.5,
             }
         }
     });
@@ -30,7 +29,9 @@ $(document).ready(function () {
         margin:30,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 3000,
+        smartSpeed: 1000,        // slide transition speed (ms)
+        autoplaySpeed: 1000,     // autoplay transition speed
         nav: false,
         dots: false,
         responsive: {
@@ -42,12 +43,9 @@ $(document).ready(function () {
             768: {
                 items: 2.2, 
             },
-            480: {
-                items: 1.2, 
-            },
             // For small screens (mobile)
             0: {
-                items: 1,
+                items: 1.5,
             }
         }
     });
@@ -56,9 +54,14 @@ $(document).ready(function () {
         margin:30,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 3000,
         nav: false,
         dots: true,
+        smartSpeed: 1000,        // slide transition speed (ms)
+        autoplaySpeed: 1000,     // autoplay transition speed
+        nav: false,
+        dots: true,
+
         responsive: {
             0: {
                 items: 1,
@@ -69,9 +72,11 @@ $(document).ready(function () {
         items: 5,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 3000,
         nav: false,
         dots: false,
+        smartSpeed: 1000,        // slide transition speed (ms)
+        autoplaySpeed: 1000,     // autoplay transition speed
         responsive: {
             // For large screens (desktop)
             1200: {
