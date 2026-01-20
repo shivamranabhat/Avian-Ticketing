@@ -9,6 +9,16 @@ li a.active{
     border-radius: 2rem;
     padding: 0.6rem 1.5rem;
 }
+
+.featured-slider .owl-item {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.featured-slider .owl-item:not(.center) {
+    transform: scale(0.93);
+}
+
+
 .accordion-content {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
